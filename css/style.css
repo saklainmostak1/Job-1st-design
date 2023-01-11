@@ -1,0 +1,30 @@
+.banner-container,
+.testimony-container,
+.product-banner-container {
+  background-color: #f0f6ff;
+}
+.banner-top-title {
+  background-color: #d4edf9;
+}
+.our-work-icon {
+  color: #79bf24;
+  font-size: 19px;
+  margin-right: 7px;
+}
+.ourwork-angle-down-icon {
+  color: #1868c7;
+  font-size: 21px;
+}
+.service-image {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: -21px -24px #f0f6ff;
+}
+.star-icon {
+  color: #e8b321;
+}
+.payment-card-img {
+  width: 42px;
+  margin-right: 5px;
+  border-radius: 4px;
+}

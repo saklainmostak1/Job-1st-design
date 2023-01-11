@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regal Registration</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- FONT AWESOME LINK -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- BOOTSTRAP LINK ADDED -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- START NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-lg-5 py-3">
+      <a class="navbar-brand ml-lg-5 ml-0" href="index.html">
+        <img src="./images/Home-image/logo.png" alt="" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse mr-lg-5" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto text-center mt-lg-0 mt-3">
+          <li class="nav-item ">
+            <a class="nav-link" href="product.html"
+              >Product </a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Services
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Entry Type
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item mr-lg-4 mr-0">
+            <a class="nav-link disabled">Blog</a>
+          </li>
+          <li class="nav-item mr-lg-3 mr-0 mt-2 ml-lg-5 ml-0">
+            <p class="mb-0 font-weight-bold">
+              <i class="fa-solid fa-phone text-primary mr-2"></i>877-955-7111
+            </p>
+          </li>
+          <li class="nav-item mt-lg-0 mt-3">
+            <button class="btn btn-primary btn-block">Start My Business</button>
+          </li>
+        </ul>
+        <!-- <div class="d-flex align-items-center">
+         
+          
+        </div> -->
+      </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- START BANNER SECTION -->
+    <section class="banner-container">
+      <div
+        class="row container mx-auto py-5 align-items-center justify-content-between"
+      >
+        <div class="col-md-5">
+          <h6 class="text-primary">
+            <span class="banner-top-title px-3 py-2 rounded-pill">
+              #1 choice for enterprenurs of all sizes
+            </span>
+          </h6>
+          <h1 class="mt-4 font-weight-bold">
+            Let Us Start and Grow your Small Business!
+          </h1>
+          <p class="mt-3 text-secondary">
+            Select your entity type below for more information on how to start
+            your business!
+          </p>
+          <div class="mt-4">
+            <button class="btn btn-primary mr-3">Get Started</button>
+            <button class="btn btn-light border">Learn More</button>
+          </div>
+        </div>
+        <div class="col-md-6 mt-lg-0 mt-5">
+          <img src="./images/Home-image/img1.PNG" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- END BANNER SECTION -->
+
+    <!-- START OUR WORK SECTION -->
+    <section>
+      <div
+        class="row align-items-center justify-content-between container mx-auto py-5"
+      >
+        <div class="col-md-6">
+          <img src="./images/Home-image/img2.PNG" class="w-100" alt="" />
+        </div>
+
+        <div class="col-md-6">
+          <h6 class="text-primary">
+            <span class="banner-top-title px-3 py-2 rounded-pill">
+              Our Work
+            </span>
+          </h6>
+          <h1 class="mt-4 font-weight-bold">
+            How our services can help your business
+          </h1>
+          <div class="accordion" id="accordionExample">
+            <div class="card border-0">
+              <div
+                class="card-header bg-transparent border-0 border-bottom border-secondary"
+                id="headingOne"
+              >
+                <h2 class="mb-0 d-flex align-items-center">
+                  <i class="fa-solid fa-circle-check our-work-icon"></i>
+                  <button
+                    class="btn btn-block text-left font-weight-bold"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    We work in all 50 states, We Make Business Filing Simple
+                  </button>
+                  <i class="fa-solid fa-angle-down ourwork-angle-down-icon"></i>
+                </h2>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse show"
+                aria-labelledby="headingOne"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body pt-0">
+                  Legal Registration™ can take care of all your business filing
+                  needs. We make the registration process simple and easy for
+                  all companies. That’s why thousands of business professionals
+                  depend on us. Our experts won’t rest until your business can
+                  maintain compliance.
+                </div>
+              </div>
+            </div>
+            <div class="card border-0">
+              <div
+                class="card-header bg-transparent border-0 border-bottom border-secondary"
+                id="headingTwo"
+              >
+                <h2 class="mb-0 d-flex align-items-center">
+                  <i class="fa-solid fa-circle-check our-work-icon"></i>
+                  <button
+                    class="btn btn-block text-left font-weight-bold"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-controls="collapseTwo"
+                  >
+                    Our Team Can Help Go Step-by-Step With You Right Now
+                  </button>
+                  <i class="fa-solid fa-angle-down ourwork-angle-down-icon"></i>
+                </h2>
+              </div>
+
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body pt-0">
+                  Legal Registration™ can take care of all your business filing
+                  needs. We make the registration process simple and easy for
+                  all companies. That’s why thousands of business professionals
+                  depend on us. Our experts won’t rest until your business can
+                  maintain compliance.
+                </div>
+              </div>
+            </div>
+            <div class="card border-0">
+              <div
+                class="card-header bg-transparent border-0 border-bottom border-secondary"
+                id="headingThree"
+              >
+                <h2 class="mb-0 d-flex align-items-center">
+                  <i class="fa-solid fa-circle-check our-work-icon"></i>
+                  <button
+                    class="btn btn-block text-left font-weight-bold"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="true"
+                    aria-controls="collapseThree"
+                  >
+                    Connect Your Business With a Registered Agent Today
+                  </button>
+                  <i class="fa-solid fa-angle-down ourwork-angle-down-icon"></i>
+                </h2>
+              </div>
+
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body pt-0">
+                  Legal Registration™ can take care of all your business filing
+                  needs. We make the registration process simple and easy for
+                  all companies. That’s why thousands of business professionals
+                  depend on us. Our experts won’t rest until your business can
+                  maintain compliance.
+                </div>
+              </div>
+            </div>
+            <div class="card border-0">
+              <div
+                class="card-header bg-transparent border-0 border-bottom border-secondary"
+                id="headingFour"
+              >
+                <h2 class="mb-0 d-flex align-items-center">
+                  <i class="fa-solid fa-circle-check our-work-icon"></i>
+                  <button
+                    class="btn btn-block text-left font-weight-bold"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseFour"
+                    aria-expanded="true"
+                    aria-controls="collapseFour"
+                  >
+                    Expert-Level Compliance Services Designed for Your Business
+                  </button>
+                  <i class="fa-solid fa-angle-down ourwork-angle-down-icon"></i>
+                </h2>
+              </div>
+
+              <div
+                id="collapseFour"
+                class="collapse"
+                aria-labelledby="headingFour"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body pt-0">
+                  Legal Registration™ can take care of all your business filing
+                  needs. We make the registration process simple and easy for
+                  all companies. That’s why thousands of business professionals
+                  depend on us. Our experts won’t rest until your business can
+                  maintain compliance.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END OUR WORK SECTION -->
+
+    <!-- START OUR SERVICE SECTION -->
+    <section class="container mx-auto py-5">
+      <h6 class="text-primary text-center">
+        <span class="banner-top-title px-3 py-2 rounded-pill">
+          Our Services
+        </span>
+      </h6>
+      <h1 class="mt-4 font-weight-bold text-center">
+        Help your business and your family
+      </h1>
+      <div class="row align-items-center mt-lg-5 pt-lg-5">
+        <div class="col-md-6">
+          <h2 class="mt-4 font-weight-bold">Start your Business Formation</h2>
+          <p class="text-secondary">
+            It’s time for LegalRegistration.com to remove all hassles from
+            forming your business. Our business formation team is standing by to
+            file every piece of paperwork. This way, you can start your very own
+            company ASAP. We can form any type of business on your behalf. From
+            an LLC <b class="text-dark">(Limited Liability Company)</b> to a
+            non-profit or Corporation.
+            <br />
+            <br />
+            Our team can also file your DBA and other business registration
+            documents with ease. No matter what type of paperwork is involved,
+            our experts will go the extra mile. Our services are the fastest and
+            simplest way to set up any type of business entity. Feel free to
+            speak to a live expert right now to get started.
+          </p>
+          <button class="btn btn-primary mt-3">Start My Business</button>
+        </div>
+        <div class="col-md-6 mt-lg-0 mt-5">
+          <img src="./images/Home-image/ourService.png" class="service-image" alt="" />
+        </div>
+      </div>
+      <div class="row align-items-center mt-lg-5 pt-lg-5">
+        <div class="col-md-6">
+          <img src="./images/Home-image/regestered.png" class="service-image" alt="" />
+        </div>
+        <div class="col-md-6">
+          <h2 class="mt-4 font-weight-bold">Registered Agent Services</h2>
+          <p class="text-secondary">
+            LegalRegistration.com is here to serve as the registered agent of
+            your business. We can do so within all 50 states. Our registered
+            agent services are fast, cost-effective, and get results. You’ll
+            experience access to a dedicated staff that can assist you and your
+            business.
+            <br />
+            <br />
+            Through a <b class="text-dark">registered agent</b>, your company
+            will receive official state recognition. As a result, you won’t have
+            to worry about any issues related to your service of process. Plus,
+            your new business can adhere to all Secretary of State agent
+            policies.
+          </p>
+          <button class="btn btn-primary mt-3">Start My Business</button>
+        </div>
+      </div>
+      <div
+        class="row align-items-center justify-content-between mt-lg-5 pt-lg-5"
+      >
+        <div class="col-md-6">
+          <h2 class="mt-4 font-weight-bold">
+            Protect your Ideas by Trademarking
+          </h2>
+          <p class="text-secondary">
+            It’s time to make your brand stand out from its competitors by using
+            a trademark. Receiving a trademark is an ideal way to protect any
+            business from branding or naming disputes. Legal Registration is
+            here to make the legal process of trademarking easy for you.
+            <br />
+            <br />
+            <b class="text-dark"> Our experts can help you trademark</b> the
+            sale of your goods and services. This way, they will appear separate
+            from any other party. Then, we will complete a USPTO (US Patent and
+            Trade Office) filing on your behalf. This streamlined process
+            prevents both potential legal issues and consumer confusion.
+          </p>
+          <button class="btn btn-primary mt-3">Start My Business</button>
+        </div>
+        <div class="col-md-6 mt-lg-0 mt-5">
+          <img src="./images/Home-image/trademarking.png" class="service-image" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- END OUR SERVICE SECTION -->
+
+    <!-- START TESTIMONY SECTION -->
+    <section class="testimony-container">
+      <div class="container mx-auto py-5">
+        <h6 class="text-primary text-center">
+          <span class="banner-top-title px-3 py-2 rounded-pill">
+            Testimony
+          </span>
+        </h6>
+        <h1 class="mt-4 font-weight-bold text-center">
+          What our Customers say about us
+        </h1>
+        <div class="card-deck mt-5">
+          <div class="card rounded">
+            <div class="card-body">
+              <div>
+                <i class="fa-solid fa-star star-icon"></i>
+                <i class="fa-solid fa-star star-icon"></i>
+                <i class="fa-solid fa-star star-icon"></i>
+                <i class="fa-solid fa-star star-icon"></i>
+                <i class="fa-regular fa-star star-icon"></i>
+              </div>
+              <p class="text-secondary mt-2">
+                “My registered agent was not providing my business with
+                Secretary of State documents in time. That’s when I discovered
+                LegalRegistration.com Business now meets all updated state
+                requirements every year. Maintaining state government licensing
+                is now a piece of cake.”
+              </p>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <div class="d-flex align-items-ceter">
+                <img
+                  src="./images/Home-image/user1.png"
+                  alt=""
+                  style="width: 50px; height: 50px"
+                  class="mr-2"
+                />
+                <div>
+                  <h6 class="">Stephen Jhonson</h6>
+                  <p class="mb-0 text-primary">CEO MSME Technologies</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card rounded">
+            <div class="card-body">
+              <div>
+                <i class="fa-solid fa-star star-icon"></i>
+                <i class="fa-solid fa-star star-icon"></i>
+                <i class="fa-solid fa-star star-icon"></i>
+                <i class="fa-solid fa-star star-icon"></i>
+                <i class="fa-regular fa-star star-icon"></i>
+              </div>
+              <p class="text-secondary mt-2">
+                “I wanted to start my own business and contacted LegalRegistration.com. Their team helped me form an LLC with ease. When I decided to make the switch to S-Corp tax status, their organization knew what to do. Their business filing services make payroll tax registration so easy. A+++.”
+              </p>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <div class="d-flex align-items-ceter">
+                <img
+                  src="./images/Home-image/user2.png"
+                  alt=""
+                  style="width: 50px; height: 50px"
+                  class="mr-2"
+                />
+                <div>
+                  <h6 class="">Jonathan Mattews</h6>
+                  <p class="mb-0 text-primary">CEO Information Technologies</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card rounded" >
+            <div class="card-body">
+              <div>
+                <i class="fa-solid fa-star star-icon"></i>
+                <i class="fa-solid fa-star star-icon"></i>
+                <i class="fa-solid fa-star star-icon"></i>
+                <i class="fa-solid fa-star star-icon"></i>
+                <i class="fa-regular fa-star star-icon"></i>
+              </div>
+              <p class="text-secondary mt-2">
+                “In the past, I had to waste hours skimming through government compliance websites. That’s how I could hunt down business and LLC registration forms. Now, I depend on the database of nationwide requirements at LegalRegistration.com”
+              </p>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <div class="d-flex align-items-ceter">
+                <img
+                  src="./images/Home-image/user3.png"
+                  alt=""
+                  style="width: 50px; height: 50px"
+                  class="mr-2"
+                />
+                <div>
+                  <h6 class="">William Bryan</h6>
+                  <p class="mb-0 text-primary">CEO ECommerce Business</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+      </div>
+    </section>
+    <!-- END TESTIMONY SECTION -->
+
+    <!-- START ARTICLE SECTION -->
+    <section class="container mx-auto py-5">
+      <h6 class="text-primary text-center">
+        <span class="banner-top-title px-3 py-2 rounded-pill">
+          Our Article
+        </span>
+      </h6>
+      <h1 class="mt-4 font-weight-bold text-center">
+        Find out tips and tricks in doing <br/>
+business from us!
+      </h1>
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <div class="card border-0">
+            <img src="./images/Home-image/blogImg1.jpg" class="card-img-top" alt="...">
+            <div class="mt-2">
+              <p class="text-secondary mb-0">
+                July 22, 2022
+              </p>
+           <h6 class="font-weight-bold mt-2">What Is a Vending Machine Contract? How To Get One for Your Business</h6>
+            </div>
+          </div>
+        </div>
+          <div class="col-md-4">
+          <div class="card border-0">
+            <img src="./images/Home-image/blogImg2.png" class="card-img-top" alt="...">
+            <div class="mt-2">
+              <p class="text-secondary mb-0">
+                March 16, 2022
+              </p>
+           <h6 class="font-weight-bold mt-2">A Basic Guide: How Long It Takes To Create An LLC</h6>
+            </div>
+          </div>
+        </div>
+           <div class="col-md-4">
+          <div class="card border-0" >
+            <img src="./images/Home-image/blogImg3.png" class="card-img-top" alt="...">
+            <div class="mt-2">
+              <p class="text-secondary mb-0">
+                February 04, 2022
+              </p>
+           <h6 class="font-weight-bold mt-2">Here’s What You Need to Know About Arkansas LLC Operating Agreement...</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-5">
+        <button class="btn btn-light border font-weight-bold">See More Article</button>
+      </div>
+    </section>
+<!-- END ARTICLE SECTION -->
+
+<!-- START STATE SECTION -->
+<section class="container mx-auto py-5">
+  <h6 class="text-primary text-center">
+    <span class="banner-top-title px-3 py-2 rounded-pill">
+      Select State
+    </span>
+  </h6>
+  <h1 class="mt-4 font-weight-bold text-center">
+    State by State Registered Agent Information
+  </h1>
+  <div class="text-center mt-4">
+    <img src="./images/Home-image/mapImg.PNG" alt="">
+  </div>
+  <div class="row mt-5">
+    <div class="col-lg-2 col-md-4 col-4">
+      <ul class="list-unstyled">
+        <li>
+          <a href="">Alabama</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Alaska</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Arkansas</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Arizona</a>
+        </li>
+        <li class="mt-2">
+          <a href="">California</a>
+        </li>
+        <li class="mt-2">
+          <a href="">California</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Connecticut</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Delaware</a>
+        </li>
+        <li class="mt-2">
+          <a href="">DC
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-2 col-md-4 col-4">
+      <ul class="list-unstyled">
+        <li>
+          <a href="">Florida</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Georgia</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Hawaii</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Idaho</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Illinois</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Iowa</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Indiana</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Kansas</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Kentucky
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-2 col-md-4 col-4">
+      <ul class="list-unstyled">
+        <li>
+          <a href="">Louisiana</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Maine</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Maryland</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Michigan</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Minnesota</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Iowa</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Mississippi</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Missouri</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Montana
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-2 col-md-4 col-4 mt-lg-0 mt-4">
+      <ul class="list-unstyled">
+        <li>
+          <a href="">Nebraska</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Nevada</a>
+        </li>
+        <li class="mt-2">
+          <a href="">New Hampshire</a>
+        </li>
+        <li class="mt-2">
+          <a href="">New Jersey</a>
+        </li>
+        <li class="mt-2">
+          <a href="">New Mexico</a>
+        </li>
+        <li class="mt-2">
+          <a href="">New York</a>
+        </li>
+        <li class="mt-2">
+          <a href="">North Carolina</a>
+        </li>
+        <li class="mt-2">
+          <a href="">North Dakota</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Ohio
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-2 col-md-4 col-4 mt-lg-0 mt-4">
+      <ul class="list-unstyled">
+        <li>
+          <a href="">Oklahoma</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Oregon</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Pennsylvania</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Rhode Island</a>
+        </li>
+        <li class="mt-2">
+          <a href="">South Carolina</a>
+        </li>
+        <li class="mt-2">
+          <a href="">South Dakota</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Tennessee</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Texas</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Utah
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-2 col-md-4 col-4 mt-lg-0 mt-4">
+      <ul class="list-unstyled">
+        <li>
+          <a href="">Vermont</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Virginia</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Washington</a>
+        </li>
+        <li class="mt-2">
+          <a href="">West Virginia</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Wyoming</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Puerto Rico</a>
+        </li>
+        <li class="mt-2">
+          <a href="">Tennessee</a>
+        </li>
+        <li class="mt-2">
+          <a href="">USA Agent</a>
+        </li>
+        <li class="mt-2">
+          <a href="">National Agent
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- END STATE SECTION -->
+
+<!-- START FOOTER SECTION -->
+
+<footer class="container mx-auto py-5 text-center text-lg-left">
+<div class="row">
+  <div class="col-md-4">
+    <img src="./images/Home-image/logo.png" alt="">
+    <p class="mb-0 mt-4 text-secondary">
+      Legal Registration is Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+  </div>
+  <div class="col-md-4 mt-4 mt-lg-0">
+    <div class="row">
+      <div class="col-md-6">
+        <h6 class="font-weight-bold">Menu</h6>
+        <ul class="list-unstyled">
+          <li class=" mt-3">
+            <a class="text-secondary" href="">About</a>
+          </li>
+          <li class=" mt-1">
+            <a class="text-secondary" href="">Entity Type</a>
+          </li>
+          <li class=" mt-1">
+            <a class="text-secondary" href="">Contact Us</a>
+          </li>
+          <li class=" mt-1">
+            <a class="text-secondary" href="">Blog</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h6 class="font-weight-bold">Services</h6>
+        <ul class="list-unstyled">
+          <li class=" mt-3">
+            <a class="text-secondary" href="">Registered Agent</a>
+          </li>
+          <li class=" mt-1">
+            <a class="text-secondary" href="">Fundraising Compliance</a>
+          </li>
+          <li class=" mt-1">
+            <a class="text-secondary" href="">NonProfit  Formation</a>
+          </li>
+          <li class=" mt-1">
+            <a class="text-secondary" href="">Business Licensing</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 mt-4 mt-lg-0">
+   
+   
+      <h6 class="font-weight-bold">Subscribe to Our Newsletter!</h6>
+      <div class="input-group mb-3 mt-3">
+        <input type="text" class="form-control" placeholder="Your Email Address" aria-describedby="button-addon2">
+        <div class="input-group-append mt">
+          <button class="btn btn-primary" type="button" id="button-addon2">Subscribe Now</button>
+     
+        </div>
+      </div>
+      <div class="d-flex align-items-center mt-4 justify-content-lg-start justify-content-center">
+        <h6 class="font-weight-bold mr-3 mb-0">Contact Us:</h6>
+        <p class="mb-0 font-weight-bold">
+          <i class="fa-solid fa-phone text-primary mr-2"></i>877-955-7111
+        </p>
+      </div>
+   
+   </div>
+  </div>
+  <p class="mb-0 text-secondary text-center mt-4">&copy;2023 Registration LLC Legal Registration</p>
+</div>
+</footer>
+<!-- END FOOTER SECTION -->
+   
+    <!-- BOOTSTRAP JS LINK ADDED -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
