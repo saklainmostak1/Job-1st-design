@@ -35,15 +35,21 @@
 .section-heading-left {
   position: relative;
 }
-.section-heading-bottom::after {
+.section-heading-bottom::after,
+.section-heading-left::after {
   content: "";
   position: absolute;
   width: 100px;
   height: 4px;
   transform: translateX(-50%);
-  background: #000;
+}
+.section-heading-left::after {
+  background: #1263b0;
+  bottom: -47%;
+  left: 11%;
 }
 .section-heading-bottom::after {
+  background: #000;
   bottom: 0px;
   left: 50%;
 }
@@ -89,4 +95,16 @@
 .entry-type-container {
   background: #dedede;
   padding: 21px;
+}
+.login-form-div {
+  width: 70%;
+  margin: 0 auto;
+}
+label {
+  color: #5b6b8c !important;
+}
+@media only screen and (max-width: 520px) {
+  .login-form-div {
+    width: 90%;
+  }
 }
