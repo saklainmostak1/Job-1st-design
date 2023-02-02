@@ -103,6 +103,59 @@
 label {
   color: #5b6b8c !important;
 }
+
+/* Cart Start*/
+.cart{
+  background-color: #D4EDF9 ;
+  text-align: center;
+}
+.order-form{
+  border: 1px solid black;
+  font-size: 1.5em;
+}
+.order-form{
+  display: grid;
+  grid-template-columns: 
+  150px 150px 150px 150px;
+  justify-content: center;
+  /* justify-items: end; */
+  /* justify-content: center; */
+}
+table{
+  box-sizing: border-box;
+}
+.img-bg{
+  background-color: #F1F1F1;
+}
+.button{
+  width: 300px;
+  display: block;
+  background-color: #1869C7;
+
+}
+.footer{
+  margin-top: 180px;
+}
+.bar{
+  display: flex;
+  justify-content: space-between;
+}
+.bullet button{
+  border-radius: 50%;
+  
+}
+.bar .step .bullet::before,
+.bar .step .bullet::after{
+  position: absolute;
+  content: '';
+ margin-left: 24px;
+ margin-top: 15px;
+  height: 3px;
+  width: 100px;
+  background-color: #084382;
+}
+
+/* Cart End*/
 @media only screen and (max-width: 520px) {
   .login-form-div {
     width: 90%;

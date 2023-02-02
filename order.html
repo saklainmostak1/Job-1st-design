@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/progress.css">
+    <!-- FONT AWESOME LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- BOOTSTRAP LINK ADDED -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-lg-5 py-3">
+        <a class="navbar-brand ml-lg-5 ml-0" href="index.html">
+            <img src="./images/Home-image/logo.png" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse mr-lg-5" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto text-center mt-lg-0 mt-3">
+                <li class="nav-item ">
+                    <a class="nav-link" href="product.html">Product </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                        aria-expanded="false">
+                        Services
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Action</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                        aria-expanded="false">
+                        Entry Type
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="lending.html">Lending</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blogDetails.html">Contact Us</a>
+                </li>
+                <li class="nav-item mr-lg-4 mr-0 active">
+                    <a href="blog.html" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item mr-lg-3 mr-0 mt-2 ml-lg-5 ml-0">
+                    <p class="mb-0 font-weight-bold">
+                        <i class="fa-solid fa-phone text-primary mr-2"></i>877-955-7111
+                    </p>
+                </li>
+                <li class="nav-item mt-lg-0 mt-3">
+                    <button class="btn btn-primary btn-block">Start My Business</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Progress Bar Start -->
+  
+  <div class="container px-1 px-md-4 mx-auto">
+    <div>
+      <div class="row d-flex justify-content-between px-3 top">
+       
+        <div class="d-flex flex-column text-sm-right">
+          
+          
+        </div>
+      </div>
+    
+      <div class="row d-flex justify-content-center">
+        <div class="col-12">
+          <ul id="progressbar" class="text-center">
+            <li class="active step0"></li>
+            <li class="active step0"></li>
+            <li class="active step0"></li>
+            <li class="step0"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Progress Bar end -->
+
+    <!-- Order Table Start -->
+
+    <div class="list-group  mx-auto d-none d-md-block d-lg-block">
+        <h6 class="text-primary mt-5 text-center">
+            <span class="banner-top-title px-3 py-2 rounded-pill">
+                Cart
+            </span>
+        </h6>
+        <h1 class="text-center mb-5">Your Order</h1>
+        <table class="table container border rounded">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Product</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Qty</th>
+                    <th scope="col">Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row "><button class="bg-danger mt-3 text-white border-0 rounded-circle">x</button></th>
+
+                    <td class="d-flex">
+                        <img src="/images/Order/Man.png" alt="">
+                        <p class="ml-2 mt-3">Full Package Utility Contractor Licence</p>
+                    </td>
+                    <td>$1,059.00</td>
+                    <td>1x</td>
+                    <td><strong>$1,059.00</strong></td>
+                </tr>
+                <tr>
+                    <th scope="row "><button class="bg-danger text-white border-0 rounded-circle mt-3">x</button></th>
+
+                    <td class="d-flex">
+                        <img src="/images//Order/Vector.png" alt="" class="img-bg p-3">
+                        <p class="ml-2 mt-3">New York Legal Registration</p>
+                    </td>
+                    <td>$259.00</td>
+                    <td>1x</td>
+                    <td><strong>$259.00</strong></td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+    <div class="m-5 d-lg-none d-md-none d-sm-block">
+        <h6 class="text-primary mt-5 text-center">
+            <span class="banner-top-title px-3 py-2 rounded-pill">
+                Cart
+            </span>
+        </h6>
+        <h1 class="text-center mb-5">Complete Your Order</h1>
+        <table class="table container border rounded">
+            <thead>
+                <tr>
+                    <th scope="row "><button class=" bg-danger text-white border-0 rounded-circle">x</button></th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="">
+                    <th scope="row">Product</th>
+                    <td>Full Package Utility Contractor Licence</td>
+                </tr>
+                <tr>
+                    <th scope="row">Price</th>
+                    <td>$1,059.00</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">Qty</th>
+                    <td colspan="2">1x</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">Subtotal</th>
+                    <td colspan="2"><strong>$1,059.00</strong></td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="m-5 d-lg-none d-md-none d-sm-block">
+        <table class="table container border rounded">
+            <thead>
+                <tr>
+                    <th scope="row "><button class="bg-danger text-white border-0 rounded-circle">x</button></th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Product</th>
+                    <td>New York Legal Registration</td>
+                </tr>
+                <tr>
+                    <th scope="row">Price</th>
+                    <td>$289.00</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">Qty</th>
+                    <td colspan="2">1x</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">Subtotal</th>
+                    <td colspan="2"><strong>$289.00</strong></td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <section class="m-3">
+        <div class="container  d-flex justify-content-between ">
+            <div>
+                <div>
+                    <p></p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <table class="table border rounded">
+                    <thead>
+                        <tr>
+                            <td scope="col">Subtotal</th>
+                            <td scope="col">$1348.00</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <td scope="col">Total</th>
+                        <th scope="col">$1348.00</th>
+                    </tbody>
+                </table>
+                <button type="submit" class="container text-white rounded border-0 p-2 button">Proceed to
+                    checkout</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Order Table End -->
+
+
+    <!-- Footer Start -->
+
+    <footer class="container mx-auto py-5 text-center text-lg-left footer">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="./images/Home-image/logo.png" alt="">
+                <p class="mb-0 mt-4 text-secondary">
+                    Legal Registration is Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="col-md-4 mt-4 mt-lg-0">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6 class="font-weight-bold">Menu</h6>
+                        <ul class="list-unstyled">
+                            <li class=" mt-3">
+                                <a class="text-secondary" href="">About</a>
+                            </li>
+                            <li class=" mt-1">
+                                <a class="text-secondary" href="">Entity Type</a>
+                            </li>
+                            <li class=" mt-1">
+                                <a class="text-secondary" href="">Contact Us</a>
+                            </li>
+                            <li class=" mt-1">
+                                <a class="text-secondary" href="">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h6 class="font-weight-bold">Services</h6>
+                        <ul class="list-unstyled">
+                            <li class=" mt-3">
+                                <a class="text-secondary" href="">Registered Agent</a>
+                            </li>
+                            <li class=" mt-1">
+                                <a class="text-secondary" href="">Fundraising Compliance</a>
+                            </li>
+                            <li class=" mt-1">
+                                <a class="text-secondary" href="">NonProfit Formation</a>
+                            </li>
+                            <li class=" mt-1">
+                                <a class="text-secondary" href="">Business Licensing</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4 mt-lg-0">
+                <h6 class="font-weight-bold">Subscribe to Our Newsletter!</h6>
+                <div class="input-group mb-3 mt-3">
+                    <input type="text" class="form-control" placeholder="Your Email Address"
+                        aria-describedby="button-addon2">
+                    <div class="input-group-append mt">
+                        <button class="btn btn-primary" type="button" id="button-addon2">Subscribe Now</button>
+
+                    </div>
+                </div>
+                <div class="d-flex align-items-center mt-4 justify-content-lg-start justify-content-center">
+                    <h6 class="font-weight-bold mr-3 mb-0">Contact Us:</h6>
+                    <p class="mb-0 font-weight-bold">
+                        <i class="fa-solid fa-phone text-primary mr-2"></i>877-955-7111
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <p class="mb-0 text-secondary text-center mt-4">&copy;2023 Registration LLC Legal Registration</p>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- BOOTSTRAP JS LINK ADDED -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
