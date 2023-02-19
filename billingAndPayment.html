@@ -63,7 +63,7 @@
                     </p>
                 </li>
                 <li class="nav-item mt-lg-0 mt-3">
-                    <button class="btn btn-primary btn-block">Start My Business</button>
+                    <button class="btn btn-warning text-white btn-block">Start My Business</button>
                 </li>
             </ul>
         </div>
@@ -72,34 +72,40 @@
 
  <!-- Progress Bar Start -->
   
- <div class="container px-1 px-md-4 mx-auto">
-    <div>
-      <div class="row d-flex justify-content-between px-3 top">
-       
-        <div class="d-flex flex-column text-sm-right">
-          
-          
-        </div>
-      </div>
-    
-      <div class="row d-flex justify-content-center">
-        <div class="col-12">
-          <ul id="progressbar" class="text-center">
-            <li class="active step0"></li>
-            <li class="active step0"></li>
-            <li class="active step0"></li>
-            <li class="step0"></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+ <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0"
+ aria-valuemax="100">
+ <div class="progress-bar bg-warning" style="width: 25%"></div>
+</div>
+
+<div class="container px-1 px-md-4 mx-auto">
+ <div>
+     <div class="row d-flex justify-content-between px-3 top">
+
+         <div class="d-flex flex-column text-sm-right">
+
+
+         </div>
+     </div>
+
+     <div class="row d-flex justify-content-center">
+         <div class="col-12">
+             <ol id="progressbar" class="text-center">
+                 <li class=" step0 ">Cart</li>
+                 <li class=" step1">Application Information</li>
+                 <li class=" step2">Billing & Payments</li>
+                 <li class="step3">Complete Order</li>
+             </ol>
+         </div>
+     </div>
+   
+ </div>
+</div>
     <!-- Progress Bar end -->
 
 
     <!-- Payment Info Start -->
     <div class="m-5">
-        <section class=" mt-5 border rounded mx-auto" style="max-width: 1240px;">
+        <section class=" mt-5 border rounded mx-auto" style="max-width: 1150px;">
             <li class="list-group-item active border bg-dark" aria-current="true">Payment Information
             </li>
             <form class="container" action="">
@@ -149,10 +155,10 @@
             </form>
         </section>
     </div>
-    <div class="m-5">
-        <button style="max-width: 1220px;" type="submit"
-            class="container text-white rounded border-0 p-2 button shadow shadow-lg bg-body-tertiary ">Place Order</button>
+    <div class="container ">
+       <button   class="container text-white rounded border-0 p-2 button shadow shadow-lg bg-body-tertiary ">Place Order</button>
     </div>
+    
     <!-- Payment Info end -->
 
     <!-- Footer Start -->
@@ -211,7 +217,7 @@
                 <div class="input-group mb-3 mt-3">
                     <input type="text" class="form-control" placeholder="Your Email Address"
                         aria-describedby="button-addon2">
-                    <div class="input-group-append mt">
+                    <div class="input-group-append mt-1">
                         <button class="btn btn-primary" type="button" id="button-addon2">Subscribe Now</button>
 
                     </div>

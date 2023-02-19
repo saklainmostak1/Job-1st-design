@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thank You</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/progress.css" />
     <!-- FONT AWESOME LINK -->
     <link
       rel="stylesheet"
@@ -91,11 +92,39 @@
             </div>
           </nav>
           <!-- END NAVBAR -->
+          <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar bg-warning" style="width: 25%"></div>
+      </div>
+  
+      <div class="container px-1 px-md-4 mx-auto">
+          <div>
+              <div class="row d-flex justify-content-between px-3 top">
+  
+                  <div class="d-flex flex-column text-sm-right">
+  
+  
+                  </div>
+              </div>
+  
+              <div class="row d-flex justify-content-center">
+                  <div class="col-12">
+                      <ol id="progressbar" class="text-center">
+                          <li class=" step0 ">Cart</li>
+                          <li class=" step1">Application Information</li>
+                          <li class=" step2">Billing & Payments</li>
+                          <li class="step3">Complete Order</li>
+                      </ol>
+                  </div>
+              </div>
+            
+          </div>
+      </div>
           <!-- START BANNER SECTION -->
           <section>
             <div class="container mx-auto py-5 text-center">
                 <h6 class="text-primary text-center">
-                  <span class="banner-top-title px-3 py-2 rounded-pill">
+                  <span class="banner-top-title px-3 py-2 rounded-pill text-white">
                     Thank you!
                   </span>
                 </h6>
@@ -163,8 +192,8 @@
           <h6 class="font-weight-bold">Subscribe to Our Newsletter!</h6>
           <div class="input-group mb-3 mt-3">
             <input type="text" class="form-control" placeholder="Your Email Address" aria-describedby="button-addon2">
-            <div class="input-group-append mt">
-              <button class="btn btn-primary" type="button" id="button-addon2">Subscribe Now</button>
+            <div class="input-group-append mt-1">
+              <button class="btn btn-primary " type="button" id="button-addon2">Subscribe Now</button>
          
             </div>
           </div>

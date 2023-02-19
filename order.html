@@ -64,51 +64,53 @@
                     </p>
                 </li>
                 <li class="nav-item mt-lg-0 mt-3">
-                    <button class="btn btn-primary btn-block">Start My Business</button>
+                    <button class="btn btn-warning text-white  btn-block">Start My Business</button>
                 </li>
             </ul>
         </div>
     </nav>
     <!-- Navbar End -->
-
-    <!-- Progress Bar Start -->
-  
-  <div class="container px-1 px-md-4 mx-auto">
-    <div>
-      <div class="row d-flex justify-content-between px-3 top">
-       
-        <div class="d-flex flex-column text-sm-right">
-          
-          
-        </div>
-      </div>
     
-      <div class="row d-flex justify-content-center">
-        <div class="col-12">
-          <ul id="progressbar" class="text-center">
-            <li class="active step0"></li>
-            <li class="active step0"></li>
-            <li class="active step0"></li>
-            <li class="step0"></li>
-          </ul>
-        </div>
-      </div>
+    <!-- Progress Bar Start -->
+    <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0"
+        aria-valuemax="100">
+        <div class="progress-bar bg-warning" style="width: 25%"></div>
     </div>
-  </div>
+
+    <div class="container px-1 px-md-4 mx-auto">
+        <div>
+            <div class="row d-flex justify-content-between px-3 top">
+
+                <div class="d-flex flex-column text-sm-right">
+
+
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-center">
+                <div class="col-12">
+                    <ol id="progressbar" class="text-center">
+                        <li class=" step0 ">Cart</li>
+                        <li class=" step1">Application Information</li>
+                        <li class=" step2">Billing & Payments</li>
+                        <li class="step3">Complete Order</li>
+                    </ol>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+   
+
     <!-- Progress Bar end -->
 
     <!-- Order Table Start -->
 
     <div class="list-group  mx-auto d-none d-md-block d-lg-block">
-        <h6 class="text-primary mt-5 text-center">
-            <span class="banner-top-title px-3 py-2 rounded-pill">
-                Cart
-            </span>
-        </h6>
-        <h1 class="text-center mb-5">Your Order</h1>
+
         <table class="table container border rounded">
             <thead>
-                <tr>
+                <tr class="bg-secondary border border-secondary text-white">
                     <th scope="col"></th>
                     <th scope="col">Product</th>
                     <th scope="col">Price</th>
@@ -126,7 +128,7 @@
                     </td>
                     <td>$1,059.00</td>
                     <td>1x</td>
-                    <td><strong>$1,059.00</strong></td>
+                    <td class="text-success" ><strong>$1,059.00</strong></td>
                 </tr>
                 <tr>
                     <th scope="row "><button class="bg-danger text-white border-0 rounded-circle mt-3">x</button></th>
@@ -137,7 +139,7 @@
                     </td>
                     <td>$259.00</td>
                     <td>1x</td>
-                    <td><strong>$259.00</strong></td>
+                    <td class="text-success" ><strong>$259.00</strong></td>
                 </tr>
 
             </tbody>
@@ -212,31 +214,34 @@
             </tbody>
         </table>
     </div>
-    <section class="m-3">
-        <div class="container  d-flex justify-content-between ">
-            <div>
-                <div>
-                    <p></p>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6">
-                <table class="table border rounded">
-                    <thead>
-                        <tr>
-                            <td scope="col">Subtotal</th>
-                            <td scope="col">$1348.00</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <td scope="col">Total</th>
-                        <th scope="col">$1348.00</th>
-                    </tbody>
-                </table>
-                <button type="submit" class="container text-white rounded border-0 p-2 button">Proceed to
-                    checkout</button>
-            </div>
+
+
+
+    <div class=" container  d-flex justify-content-end">
+        
+        <div class="col-lg-6 col-md-6">
+            <table class="table border rounded">
+                <thead>
+                    <tr class="">
+                     
+                        <td scope="col">Subtotal</td>
+                            <th scope="col">$1348.00</th>
+                      
+                    </tr>
+                </thead>
+                <tbody class="">
+                    <td scope="col">Total</td>
+                    <th class="text-success" scope="col">$1348.00</th>
+                </tbody>
+            </table>
+        <div class="button">
+
+            <button type="submit" class=" container text-white rounded border-0 bg-primary btn">Proceed to
+                checkout</button>
         </div>
-    </section>
+        </div>
+    </div>
+
 
 
     <!-- Order Table End -->
@@ -296,7 +301,7 @@
                 <div class="input-group mb-3 mt-3">
                     <input type="text" class="form-control" placeholder="Your Email Address"
                         aria-describedby="button-addon2">
-                    <div class="input-group-append mt">
+                    <div class="input-group-append mt-1">
                         <button class="btn btn-primary" type="button" id="button-addon2">Subscribe Now</button>
 
                     </div>

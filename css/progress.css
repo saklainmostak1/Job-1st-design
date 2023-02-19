@@ -42,8 +42,28 @@ body {
 
 #progressbar .step0::before {
     font-family: FontAwesome;
-    content: '\f10c';
+    /* content: '\f10c'; */
+    content: '1';
     color: #fff;
+    background-color: #1868C7;
+}
+#progressbar .step1::before {
+    font-family: FontAwesome;
+    /* content: '\f10c'; */
+    content: ' 2';
+    color: #000;
+}
+#progressbar .step2::before {
+    font-family: FontAwesome;
+    /* content: '\f10c'; */
+    content: ' 3';
+    color: #000;
+}
+#progressbar .step3::before {
+    font-family: FontAwesome;
+    /* content: '\f10c'; */
+    content: ' 4';
+    color: #000;
 }
 
 #progressbar li::before {
@@ -52,7 +72,8 @@ body {
     line-height: 45px;
     display: block;
     font-size: 20px;
-    background: #c5cae9;
+    background: white;
+    border: 1px solid #ECECEC;
     border-radius: 50%;
     margin: auto;
     padding: 0;
@@ -62,8 +83,8 @@ body {
 #progressbar li::after {
     content: '';
     width: 100%;
-    height: 12px;
-    background-color: #c5cae9;
+    height: 4px;
+    background-color: #ECECEC;
     position: absolute;
     top: 16px;
     left: 0;

@@ -1,10 +1,58 @@
 .banner-container,
 .testimony-container,
 .product-banner-container {
-  background-color: #f0f6ff;
+  background-color: #1868C7;
+}
+.login-font{
+  
+  font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 600;
+font-size: 19px;
+line-height: 29px;
+}
+.backgd{
+  background: #EFF2F6;
+  font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #000000;
+  
+}
+.section-text{
+  margin-top: 50px;
+  margin-left: 160px;
+}
+.max-width{
+  max-width: 1440px;
+}
+.vector-img{
+  margin-top: -450px;
+  margin-left: 250px;
+}
+.bg{
+  background: #F6F7FA;
+}
+.button-video{
+  margin-top: -550px;
+  margin-left: 360px;
+  
+}
+.img-width{
+ width: 824px;
+}
+.banner-container{
+  /* background: linear-gradient(88.47deg, #1868C7 12.72%, rgba(0, 0, 0, 0) 74.82%), url(190123520_l.jpg); */
+  background: #1868C7;;
 }
 .banner-top-title {
-  background-color: #d4edf9;
+  background-color: #FFA612;
 }
 .our-work-icon {
   color: #79bf24;
@@ -113,6 +161,19 @@ label {
   border: 1px solid black;
   font-size: 1.5em;
 }
+.background{
+background: #1868C7;
+
+  ;
+}
+.bacground-about-section{
+  background: #1868C7;
+  /* background: linear-gradient(269.13deg, #1868C7 0.8%, rgba(0, 0, 0, 0) 42.75%), linear-gradient(88.47deg, #1868C7 12.72%, rgba(0, 0, 0, 0) 74.82%), url(189026433_m.jpg); */
+}
+.button-about-us{
+ transform: translatex(50px, 50px) scale(0.6) rotate(45deg);
+}
+
 .order-form{
   display: grid;
   grid-template-columns: 
@@ -128,10 +189,17 @@ table{
   background-color: #F1F1F1;
 }
 .button{
-  width: 300px;
-  display: block;
-  background-color: #1869C7;
-
+ 
+ background-color: #1263b0;
+ border-radius: 10px;
+}
+.btn{
+   box-shadow: 10px;
+   
+    transform: translate(-5px,  -5px) ;
+  border: 10px solid white;
+  border-radius: 10px;
+   
 }
 .footer{
   margin-top: 180px;
@@ -156,6 +224,18 @@ table{
 }
 
 /* Cart End*/
+/* Details */
+.width{
+  max-width: 1440px;
+  
+}
+.padding{
+  padding: 50px;
+}
+.border-size{
+  border-bottom: 4px solid blue;
+}
+/* Details */
 @media only screen and (max-width: 520px) {
   .login-form-div {
     width: 90%;
